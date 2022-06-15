@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Simply overwrite Bookmarks in chrome
+# Simply overwrite Bookmarks in chrome and activate Bookmark Bar, if set to "True"
 
 set -x
 
