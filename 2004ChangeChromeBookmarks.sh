@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 
-# Simply overwrite Bookmarks in chrome and activate Bookmark Bar, if set to "True"
+# This script:
+# 1. Creates folders in Google-chrome under .skjult user if not present
+# 2. Add's bookmark file to the newly created folder
+# 3. Set Bookmark Bar as either hidden or shown
+#
+#
+# Author: Benjamin Strüssmann Jensen
 
 set -x
 
