@@ -5,6 +5,9 @@
 # 2. Add "user" to Samba
 # 3. Check if settings are set in smb.conf else set it
 #
+# OBS! Kan ske der skal benyttes "Desktop" i stedet for "Skrivebord" i Path.
+# Alt efter hvilket sprog jeres grund image er lavet på
+#
 # Author: Benjamin Strüssmann Jensen
 
 set -x
