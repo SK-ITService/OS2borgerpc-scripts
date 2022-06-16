@@ -13,5 +13,5 @@ set -x
 FILENAME=$1
 
 DESKTOP_FULL_PATH=/home/.skjult/Skrivebord
-rm -f "$DESKTOP_FULL_PATH/$DESKTOP_FILE"
+rm -f "$DESKTOP_FULL_PATH/$FILENAME"
 
