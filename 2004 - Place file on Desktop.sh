@@ -11,7 +11,7 @@
 
 set -x
 
-if [ $# -ne 1 ]
+if [ $# -ne 2 ]
 then
     echo "Usage: $(basename $0) {filename} "
     echo ""
@@ -19,8 +19,10 @@ then
 fi
 
 DESKTOP_FILE=$1
+FILENAME=$2
 
-DESKTOP_FULL_PATH=/home/.skjult/Skrivebord
+DESKTOP_FULL_PATH="/home/.skjult/Skrivebord/$FILENAME"
 mkdir --parents /home/.skjult/Skrivebord
 sudo /bin/cp -rf "$DESKTOP_FILE"  "$DESKTOP_FULL_PATH"
+
 
